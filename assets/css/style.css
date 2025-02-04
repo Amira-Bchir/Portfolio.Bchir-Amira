@@ -23,7 +23,7 @@ body {
 }
 
 :root {
-  --p1: 82, 113, 255;
+  --p1: 255, 0, 0;
   --p2: 217, 236, 227;
   --n1: 255, 255, 255;
   --n11: 255, 255, 255;
@@ -1674,7 +1674,7 @@ input:-webkit-autofill:active {
 .user-bg {
   width: 325px;
   height: 407px;
-  background-color: rgba(var(--p1), 1);
+  background-color: red;
   animation: rotatedBg 10s infinite linear;
 }
 
